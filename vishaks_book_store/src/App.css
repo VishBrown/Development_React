@@ -1,15 +1,14 @@
-/* Base Layout Enhancements */
 .App {
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern Font */
-  background-color: #f0f2f5; /* Lighter background for contrast */
-  color: #333; /* Darker text for better readability */
-  padding: 20px 0; /* Add some padding around the app */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 20px 0;
 }
 
 .App-header {
-  background-color: #005792; /* More vibrant header color */
-  min-height: 60px; /* Slightly taller header */
+  background-color: #005792;
+  min-height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,15 +16,13 @@
   color: white;
 }
 
-/* Grid Layout for Main Content */
 .content {
   display: grid;
-  grid-template-columns: 1fr 300px; /* Responsive grid layout */
-  gap: 30px; /* Increased gap for better separation */
-  padding: 0 20px; /* Padding on the sides */
+  grid-template-columns: 1fr 300px;
+  gap: 30px;
+  padding: 0 20px;
 }
 
-/* Enhanced Controls Layout */
 .controls {
   display: flex;
   flex-wrap: wrap;
@@ -34,27 +31,27 @@
   gap: 10px;
 }
 
-/* Book List & Individual Book Enhancements */
+
 .book-list, .book-shop .book-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; /* Ensure even distribution */
-  gap: 30px; /* More space between books */
+  justify-content: space-around;
+  gap: 30px;
   padding: 20px;
 }
 
 .book {
-  border: none; /* Remove border for a cleaner look */
+  border: none;
   padding: 15px;
-  width: 200px; /* Maintain width */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
-  border-radius: 8px; /* Rounder corners */
-  background-color: #ffffff; /* Ensure contrast */
-  transition: transform 0.3s ease; /* Smooth transition */
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
 }
 
 .book:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-5px);
 }
 
 .book img {
@@ -63,7 +60,7 @@
   margin-bottom: 15px;
 }
 
-/* Button & Select Input Enhancements */
+
 button, select {
   margin: 10px;
   padding: 10px 20px;
@@ -80,45 +77,44 @@ button {
 }
 
 button:hover {
-  background-color: #004ba0; /* Darker on hover */
+  background-color: #004ba0;
 }
 
-/* Cart Enhancements */
+
 .cart {
   padding: 20px;
-  border: none; /* Remove border for a modern look */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Increased shadow for more depth */
-  background-color: #eef2f7; /* New, lighter background color */
-  border-radius: 8px; /* Consistent border-radius */
+  border: none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  background-color: #eef2f7; 
+  border-radius: 8px;
 }
 
 .cart div {
-  font-size: 18px; /* Increased font size */
-  font-weight: bold; /* Make text bold */
-  margin: 5px 0; /* Add some space around the text */
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
 }
 
-/* Ensure that the .cart h2 (Your Cart heading) is larger than the div elements */
 .cart h2 {
-  font-size: 28px; /* Larger than the div but adjust according to your design */
+  font-size: 28px;
 }
 
 .cart .total-info {
-  font-size: 18px; /* Slightly larger font size */
-  font-weight: bold; /* Bold font weight */
-  margin: 10px 0; /* More margin for better spacing */
+  font-size: 18px; 
+  font-weight: bold; 
+  margin: 10px 0;
 }
 
-/* Normal text style for item names */
+
 .cart .item-name {
-  font-size: 16px; /* Standard text size */
-  font-weight: normal; /* Normal font weight, not bold */
-  margin: 5px 0; /* Space between items */
+  font-size: 16px;
+  font-weight: normal;
+  margin: 5px 0;
 }
-/* Book Shop Container Enhanced */
+
 .book-shop {
   display: flex;
   flex-direction: column;
-  max-width: 1200px; /* Constrain for better readability */
-  margin: auto; /* Center in the page */
+  max-width: 1200px;
+  margin: auto;
 }
