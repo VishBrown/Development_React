@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Book from './Book';
-import booksData from './books.json'; // Original books data
+import booksData from './books.json'; 
 import Cart from './Cart';
 
 function BookList() {
@@ -24,8 +24,10 @@ function BookList() {
   };
 
   const resetBooksAndCart = () => {
-    setBooks(booksData); // Reset books to original data
-    setCartItems([]); // Clear cart items
+    setBooks(booksData);
+    setCartItems([]); 
+    setFilterGenre('All'); 
+    setFilterPrice('All'); 
   };
 
   const filteredBooks = books.filter(book => {
@@ -40,7 +42,7 @@ function BookList() {
       <div className="controls">
         <button onClick={sortBooksByPriceDesc}>Sort by Price Descending</button>
         <button onClick={sortBooksByPriceAsc}>Sort by Price Ascending</button>
-        <button onClick={resetBooksAndCart}>Reset</button> {/* Reset Button */}
+        <button onClick={resetBooksAndCart}>Reset</button> 
         <label>
           Genre:
           <select value={filterGenre} onChange={(e) => setFilterGenre(e.target.value)}>
