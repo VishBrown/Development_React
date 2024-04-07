@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "To Kill a Mockingbird",
+      "genre": "Fiction",
+      "price": 15,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sapiens: A Brief History of Humankind",
+      "genre": "Non-Fiction",
+      "price": 25,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "genre": "Fiction",
+      "price": 20,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 4,
+      "name": "The Girl with the Dragon Tattoo",
+      "genre": "Fiction",
+      "price": 18,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dune",
+      "genre": "Fiction",
+      "price": 22,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pride and Prejudice",
+      "genre": "Romantic Fiction",
+      "price": 17,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Da Vinci Code",
+      "genre": "Fiction",
+      "price": 30,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 8,
+      "name": "The Nightingale",
+      "genre": "Historical Fiction",
+      "price": 28,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Steve Jobs",
+      "genre": "Biography",
+      "price": 24,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 10,
+      "name": "The 7 Habits of Highly Effective People",
+      "genre": "Self-Help",
+      "price": 19,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 11,
+      "name": "It",
+      "genre": "Horror",
+      "price": 21,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 12,
+      "name": "The Joy of Cooking",
+      "genre": "Cooking",
+      "price": 16,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Into the Wild",
+      "genre": "Travel",
+      "price": 26,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Milk and Honey",
+      "genre": "Poetry",
+      "price": 23,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Hamlet",
+      "genre": "Drama",
+      "price": 29,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Rich Dad Poor Dad",
+      "genre": "Business",
+      "price": 27,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 17,
+      "name": "The Art of War",
+      "genre": "Art",
+      "price": 31,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Musicophilia",
+      "genre": "Music",
+      "price": 32,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 19,
+      "name": "A Brief History of Time",
+      "genre": "Science",
+      "price": 33,
+      "image": "/images/image_book.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Thinking, Fast and Slow",
+      "genre": "Psychology",
+      "price": 34,
+      "image": "/images/image_book.jpg"
+    }
+  ]
+  
